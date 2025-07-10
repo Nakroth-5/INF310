@@ -35,14 +35,6 @@ struct AdyacenteConPeso {
 
 template<typename T>
 class GrafoPesado {
-    struct CaminoResultado {
-        std::vector<T> camino;
-        double distanciaTotal;
-        double tiempoTotal;
-        bool existeCamino;
-
-        CaminoResultado() : distanciaTotal(0), tiempoTotal(0), existeCamino(false) {}
-    };
 protected:
     std::vector<T> listaVertices;
     std::vector<std::vector<AdyacenteConPeso> > listaAdyacencia;
