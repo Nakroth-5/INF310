@@ -1,0 +1,25 @@
+# Archivos de compilación
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Directorios comunes de compilación
+build/
+cmake-build-*/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.swp
+*~
+
+# Qt y CLion
+.idea/
+*.pro.user

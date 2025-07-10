@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/imagenes">
+        <file>bolivia_mapa.png</file>
+    </qresource>
+</RCC>
